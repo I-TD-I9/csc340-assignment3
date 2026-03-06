@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.csc340_asgmt3.curdapi;
 
 import java.util.List;
 
@@ -56,6 +56,6 @@ public class CharacterService {
 	}
 
 	public List<Character> searchCharactersByName(String namePart) {
-		return characterRepository.findByNameContainingIgnoreCase(namePart);
+		return characterRepository.findByName(namePart);
 	}
 }

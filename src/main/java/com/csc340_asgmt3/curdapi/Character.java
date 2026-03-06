@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.csc340_asgmt3.curdapi;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
