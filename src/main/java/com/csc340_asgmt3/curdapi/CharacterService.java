@@ -36,6 +36,7 @@ public class CharacterService {
 		existingCharacter.setDescription(updatedCharacter.getDescription());
 		existingCharacter.setUniverse(updatedCharacter.getUniverse());
 		existingCharacter.setSpecies(updatedCharacter.getSpecies());
+		existingCharacter.setImageUrl(updatedCharacter.getImageUrl());
 		return characterRepository.save(existingCharacter);
 	}
 

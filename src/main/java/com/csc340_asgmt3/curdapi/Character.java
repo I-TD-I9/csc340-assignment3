@@ -25,6 +25,8 @@ public class Character {
 	@Column(nullable = false)
 	private String species;
 
+	private String imageUrl;
+
 	public Character() {
 	}
 
@@ -73,5 +75,13 @@ public class Character {
 
 	public void setSpecies(String species) {
 		this.species = species;
+	}
+
+	public String getImageUrl() {
+		return imageUrl;
+	}
+
+	public void setImageUrl(String imageUrl) {
+		this.imageUrl = imageUrl;
 	}
 }
